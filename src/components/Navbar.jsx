@@ -57,6 +57,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="#Home"
+                  style={{ color: "#0A83F2" }}
                 >
                   Home
                 </a>
@@ -66,6 +67,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="#about-us"
+                  style={{ color: "#6499E9" }}
                 >
                   About us
                 </a>
@@ -75,6 +77,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="#shop"
+                  style={{ color: "#6499E9" }}
                 >
                   Shop
                 </a>
@@ -84,6 +87,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="#blog"
+                  style={{ color: "#6499E9" }}
                 >
                   Blog
                 </a>
@@ -93,6 +97,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="#contact"
+                  style={{ color: "#6499E9" }}
                 >
                   Contact
                 </a>
@@ -101,13 +106,13 @@ const Navbar = () => {
 
             {/* Login / Signup */}
             <div className="d-flex flex-column justify-content-center align-items-center gap-3 flex-lg-row">
-              <a href="#login" className="text-white">
+              <a href="#login" className="text-white" style={{ color: "#6499E9" }}>
                 Login
               </a>
               <a
                 href="#signup"
                 className="text-white decoration-none px-3 py-1 rounded-4"
-                style={{ background: "#f94ca4" }}
+                style={{ background: "#6499E9" }}
               >
                 Signup
               </a>
